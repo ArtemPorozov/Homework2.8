@@ -8,10 +8,18 @@
 import SwiftUI
 
 @main
-struct Homework2_8App: App {
+struct Homework1_4App: App {
+    
+    init() {
+        Configurator.shared.register()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(NewsScreenViewModel())
+                .environmentObject(CustomNavScreenViewModel())
         }
     }
+    
 }
