@@ -10,9 +10,7 @@ import Foundation
 class ServiceLocator {
     static let shared = ServiceLocator()
     
-    lazy var services: [String: AnyObject] = [:] //{
-//        return [String:AnyObject]()
-//    }()
+    lazy var services: [String: AnyObject] = [:]
     
     func addServices<T:AnyObject>(service: T) {
         let key = String(describing: T.self)

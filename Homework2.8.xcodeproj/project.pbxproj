@@ -254,7 +254,7 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		A8125AB727975E7400DAA5C7 /* Network Service */ = {
+		A8125AB727975E7400DAA5C7 /* ArticlesAPI */ = {
 			isa = PBXGroup;
 			children = (
 				A8125AB827975E7400DAA5C7 /* APIHelper.swift */,
@@ -271,7 +271,7 @@
 				A8125AC827975E7400DAA5C7 /* SynchronizedDictionary.swift */,
 				A8125AC927975E7400DAA5C7 /* Configuration.swift */,
 			);
-			path = "Network Service";
+			path = ArticlesAPI;
 			sourceTree = "<group>";
 		};
 		A8125ABA27975E7400DAA5C7 /* APIs */ = {
@@ -296,7 +296,7 @@
 		A8125AE02797667700DAA5C7 /* Core Services */ = {
 			isa = PBXGroup;
 			children = (
-				A8125AB727975E7400DAA5C7 /* Network Service */,
+				A8125AB727975E7400DAA5C7 /* ArticlesAPI */,
 			);
 			path = "Core Services";
 			sourceTree = "<group>";

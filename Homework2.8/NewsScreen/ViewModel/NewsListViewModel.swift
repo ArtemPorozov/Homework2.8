@@ -31,7 +31,7 @@ final class NewsListViewModel: ObservableObject {
         page += 1
         DispatchQueue.global(qos: .background).async {
             self.articlesAPI?.everythingGet(q: self.newsCategory,
-                                      from: "2022-01-01",
+                                      from: "2022-01-20",
                                       sortBy: "publishedAt",
                                       language: "ru",
                                       apiKey: "a59e5f24831a4322b535578654582973",
